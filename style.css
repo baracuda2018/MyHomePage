@@ -1,0 +1,42 @@
+/* Main page CSS */
+body{
+    background-color: black;
+}
+
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.picture{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 100px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.memory{
+    border: 5px solid white;
+    width: 100%;
+}
+
+.mem {
+    color:blueviolet ;
+}
+
+.desc{
+    color:aqua;
+    font-size: medium;
+}
+
+a{
+    color: burlywood;
+    margin-left: 48%;
+}
+
+
+
+
