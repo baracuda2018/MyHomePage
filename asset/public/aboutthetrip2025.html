@@ -1,22 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <!-- <link ref="../public/style2025.css"> -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+
+    <style>
+      /* will creat style.css for this mainpage */
+     body {
+      display: inline-block;    
+      font-family: "Poppins", sans-serif;
+      font-size: small;
+      /* this setting for the whole body
+      padding: 5px;
+      border: 10px solid black; */
+      width: 100%;
+     }  
+
+      /* setting for the class pic  */
+      .pic {
+         float: left;
+         margin: 2px ;  
+         padding: 5px;
+         border: 1px solid green;
+      }
+
+      /* setting for the outline index  */
+      .row {
+         font-size: medium;
+         color: blueviolet;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;                        
+      }
+      
+      #row1{            
+         direction: flex;
+         margin-top: 20px;         
+      }      
+
+      #row2 {
+         /* Increase this margin top larger will have enough room for images to grow */
+         margin-top: 300px;          
+      }
+
+      span {
+         color: brown;
+      }
+      
+      /* setting space between words, default is only one blank spaces
+      .home {
+         word-spacing: 20px;      
+      } 
+      
+      /* adding description to the images ? */
+      /* div.desc {
+         padding: 5px;
+         text-align: center; 
+         }*/
+
+   @media only screen and (max-width: 500px) {
+      .pic {
+         width: 100%;
+         display: inline;
+         }
+      }
+        
+      .clearfix::after {
+         content: "";
+         display: table;
+         clear: both;
+      }
+   </style>  
+   
+</head>
+<body>
+   
+   <a class="main" href="../mainpage.html"> Back </a> 
+   <footer>"Copyright @2025. All Rights Reserved."</footer> 
+   <a class="home" href="../index.html"> Home  </a>
+   
 <h1>About my trip with my brother to Viet Nam 03/2025</h1>
-<p>The purpose of this trip is to visit my brother-current live in VietNam, having colon cancer
+<!-- <p>The purpose of this trip is to visit my brother-current live in VietNam, having colon cancer
    at stage 4 - uncurable, 22 times chemo treatment with a few more times to go before pausing for
    body rest, a period of time in one month. After period of resting, re-examine CT scan, ultra sound and physical blood 
    draw to evaluate the condition of the treatment. We hope that he will continue strive hard in his way with the support of 
-   his familly and from all of us in the US.</p>
+   his familly and from all of us in the US.</p> -->
 
- <p>While he is still able to talk and concious about life, we don't want to miss that time frame.
-</p>
-<h3>Link to my immediate familly, and to all my nieces and nephews</h3>
-<ul>
-    <li><a href="./asset/images/Mybrother3.png" height="200"> Here is my brother </a></li>
-    <li><a href="./asset/images/HongNgu01.png" height="200"> My nieces and neighfews in Viet Nam </a></li>
-    <li>My nieces and neighfews in San Jose, Tracy, and Arizona</li>
-    <li></li>
-    <li></li>
-    <li></li>
-    
-</ul>
+<!--  <p>While he is still able to talk and concious about life, we don't want to miss that time frame. </p> -->
+<picture>
+      <h3>***Our familly <span>@different places: </h3>
+      <ul>
+         <li class="row" id="row1">Images</li>  
+            <div  class="pic" id="img1"> <a href="../asset/images/HongNgu01.jpg">     
+               <img src="../asset/images/HongNgu01.jpg" height="50px"> </a> </div> 
+                  <!-- <div class="desc">Hong Ngu 01</div> -->
+            
+            <div  class="pic" id="img2"> <a  href="../asset/images/HongNgu02.jpg">     
+                  <img src="../asset/images/HongNgu02.jpg" height="50px"> </a> </div>
+                     <!-- <div class="desc">Hong Ngu 02</div> -->
+                  
+            <div  class="pic" id="img3"> <a  href="../asset/images/Mybrother.jpg">     
+                  <img src="../asset/images/Mybrother.jpg" height="50px"> </a> </div>
 
-<hr/>
-<h3>****Still under construction****</h3> 
+            <div  class="pic" id="img4"> <a  href="../asset/images/Mybrosisinlaw2.jpg">     
+                  <img src="../asset/images/Mybrosisinlaw2.jpg" height="50px"> </a> </div>
+
+            <div  class="pic" id="img5"> <a  href="../asset/images/Mybrosisinlaw3.jpg">     
+                  <img src="../asset/images/Mybrosisinlaw3.jpg" height="50px"> </a> </div>
+
+            <div  class="pic" id="img6"> <a  href="../asset/images/Mybrosisinlaw.jpg">     
+                  <img src="../asset/images/Mybrosisinlaw.jpg" height="50px"> </a> </div>       
+               
+            <div  class="pic" id="img7"> <a  href="../asset/images/Mynephew1.jpg">     
+                  <img src="../asset/images/Mynephew1.jpg" height="50px"> </a> </div> 
+
+            <div  class="pic" id="img8"> <a  href="../asset/images/Mybrother2.jpg">     
+                  <img src="../asset/images/Mybrother2.jpg" height="50px"> </a> </div>
+                  
+            <div  class="pic" id="img9"> <a  href="../asset/images/Mybrother3.jpg">     
+                  <img src="../asset/images/Mybrother3.jpg" height="50px"> </a> </div>  
+
+            <div  class="pic" id="img10"> <a  href="../asset/images/Myson1.jpg">     
+                  <img src="../asset/images/Myson1.jpg" height="50px"> </a> </div>
+            
+            <div  class="pic" id="img11"> <a  href="../asset/images/HN3.jpg">     
+                  <img src="../asset/images/HN3.jpg" height="50px"> </a> </div>
+
+            <div  class="pic" id="img12"> <a  href="../asset/images/HN4.jpg">     
+                <img src="../asset/images/HN4.jpg" height="50px"> </a> </div>
+                              
+            <div  class="pic" id="img13"> <a  href="../asset/images/Mybrother3.jpg">     
+               <img src="../asset/images/Mybrother3.jpg" height="50px"> </a> </div>  
+
+            <div  class="pic" id="img16"> <a  href="../asset/images/Myson1.jpg">     
+               <img src="../asset/images/Myson1.jpg" height="50px"> </a> </div>
+         
+            <div  class="pic" id="img17"> <a  href="../asset/images/Mybrother4.jpg">     
+               <img src="../asset/images/Mybrother4.jpg" height="50px"> </a> </div> 
+               
+            <div  class="pic" id="img18"> <a  href="../asset/images/Mybrother5.jpg">     
+               <img src="../asset/images/Mybrother5.jpg" height="50px"> </a> </div> 
+            
+            <div  class="pic" id="img19"> <a  href="../asset/images/TSN01.jpg">     
+               <img src="../asset/images/TSN01.jpg" height="50px"> </a> </div> 
+
+            <div  class="pic" id="img20"> <a  href="../asset/images/SG1.jpg">     
+               <img src="../asset/images/SG1.jpg" height="50px"> </a> </div>
+            
+            <div  class="pic" id="img21"> <a  href="../asset/images/SG2.jpg">     
+                <img src="../asset/images/SG2.jpg" height="50px"> </a> </div> 
+                  
+            <div  class="pic" id="img22"> <a  href="../asset/images/SG3.jpg">     
+               <img src="../asset/images/SG3.jpg" height="50px"> </a> </div> 
+               
+            <div  class="pic" id="img23"> <a  href="../asset/images/SG4.jpg"> 
+               <img src="../asset/images/SG4.jpg" height="50px"> </a> </div>
+               
+            <div  class="pic" id="img24"> <a  href="../asset/images/ST1.jpg">     
+                  <img src="../asset/images/ST1.jpg" height="50px"> </a> </div> 
+                    
+            <div  class="pic" id="img25"> <a  href="../asset/images/MyNiece1.jpg">     
+                 <img src="../asset/images/MyNiece1.jpg" height="50px"> </a> </div> 
+                 
+            <div  class="pic" id="img26"> <a  href="../asset/images/TC1.jpg"> 
+                 <img src="../asset/images/TC1.jpg" height="50px"> </a> </div>
+
+            <div  class="pic" id="img27"> <a  href="../asset/images/TC2.jpg"> 
+                 <img src="../asset/images/TC3.jpg" height="50px"> </a> </div>
+
+            <div  class="pic" id="img28"> <a  href="../asset/images/TC3.jpg"> 
+                 <img src="../asset/images/TC3.jpg" height="50px"> </a> </div>
+
+            <div  class="pic" id="img29"> <a  href="../asset/images/TSN02.jpg"> 
+                 <img src="../asset/images/TSN02.jpg" height="50px"> </a> </div>
+
+
+
+
+
+         <li class="row" id="row2"> Video: <span> To see larger image, click @dots</span> </li>
+            <video controls width="100"> 
+               <source class="video" id="vid1" src="../asset/video/DoChieu.MOV" type="video/webm" />               
+              <p> Your browser doesn't support HTML video. Here is a
+                 <a href="myVideo.mp4" download="myVideo.mp4">link to the video</a> instead. </p>
+               </video>
+
+            <video controls width="100">
+             <source class="video" id="vid2" src="../asset/video/MarketatTanTuan.MOV" type="video/webm" />
+            </video>
+
+            <video controls width="100">
+               <source class="video" id="vid3" src="../asset/video/ChuaMeNamHai.MOV" type="video/webm" />
+            </video>
+
+            <video controls width="100">
+               <source class="video" id="vid4" src="../asset/video/TSN1.MOV" type="video/webm" />
+            </video>
+
+            <video controls width="100">
+               <source class="video" id="vid5" src="../asset/video/MarketatTanThuan2.MOV" type="video/webm" />
+            </video> 
+
+            <video controls width="100">
+               <source class="video" id="vid6" src="../asset/video/JackfruitTree.MOV" type="video/webm" />
+            </video>
+            
+            <video controls width="100">
+               <source class="video" id="vid7" src="../asset/video/CTDG1.MOV" type="video/webm" />
+            </video>
+
+            <video controls width="100">
+               <source class="video" id="vid8" src="../asset/video/MyParentsTombs.MOV" type="video/webm" />
+            </video>
+
+            <video controls width="100">
+               <source class="video" id="vid9" src="../asset/video/SG1.MOV" type="video/webm" />
+            </video>
+
+      </ul>
+          
+   </picture>
+
+</body>
+  
+</html>
